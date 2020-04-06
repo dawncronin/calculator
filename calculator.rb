@@ -28,4 +28,17 @@ class Calculator
         return fact
     end
 
+    def square(num)
+        return num*num
+    end
+
+    def power(num, power)
+        total = 1
+        power.times do
+            total *= num
+        end
+        return total
+    end
+        
+
 end
