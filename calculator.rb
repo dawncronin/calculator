@@ -2,6 +2,7 @@ class Calculator
 
     def add (num1, num2)
         return num1 + num2
+        # return 8
     end
 
     def subtract (num1, num2)
@@ -28,9 +29,3 @@ class Calculator
     end
 
 end
-
-calc = Calculator.new
-
-p calc.add(1, 3)
-
-p calc.factorial(4)
